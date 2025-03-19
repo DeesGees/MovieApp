@@ -515,8 +515,8 @@ async function fetchApiData (endpoint){
 //Init app
 function init(){
     switch(global.currentPage){
-        case 'MovieApp/':
-        case'MovieApp/index.html':
+        case '/':
+        case'/index.html':
             displayPopularMovies()
             displaySlider();
             break;  
